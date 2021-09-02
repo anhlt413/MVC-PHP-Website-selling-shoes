@@ -1,0 +1,66 @@
+#container{
+    background-color:white;
+    margin: 1% 10%;
+    display: flex;
+}
+#left{
+    background-color: white;
+    float: left;
+    width: 25%;
+    margin: 40px 10px;
+}
+#right{
+    background-color: white;
+    width: 75%;
+    float: left;
+}
+.sanpham{
+    margin: 0px 10px;
+    float: left;
+    width: 31.07%;
+    height: 420px;
+    text-align: center;
+    background-color:white;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+h4{
+    color: black;
+    font-size: 17px;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a h4:hover{
+    color: #f15e2c;
+}
+h2{
+    color: #ff7f00;
+}
+a div:hover{
+    background-color: whitesmoke;
+}
+div.timkiem{
+    border-bottom-style:dashed;
+    border-color: whitesmoke;
+}
+#show{
+    font-size: 18px;
+    height: 40px ;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+#checked{
+    background-color: whitesmoke;
+    font-weight: bold;
+    font-size: 18px;
+    height: 40px ;
+    display: flex;
+    align-items: center;
+    color: black;
+}

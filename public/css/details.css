@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head{
+    color: black;
+    font-weight: bold;
+    border-bottom-style: solid;
+    border-color: black;
+    height: 40px;
+    background-color: white;
+    margin: 15px 150px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+#body{
+    margin: 0px 150px 200px 150px;
+    height: 1500px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+#img{
+    margin: 25px 0px 0px 0px;
+    width: 50%;
+    background-color: white;
+    float: left;
+    height: 100%;
+}
+#details{
+    font-size: 20px;    
+    margin: 5px 0px 0px 50px;
+    width: 45.86%;
+    background-color: white;
+    float: left;
+    height: 100%;
+}
+#name{
+    border-bottom-style:dashed;
+    border-color: #bfbdb999;
+}
+#thongtin{
+    padding: 10px 0px;
+    border-bottom-style:dashed;
+    border-color: #bfbdb999;
+}
+select{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    display: block;
+}
+.sm{
+    display: block;
+    width: 86%;
+    background-color: black;
+    color: white;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer; 
+}
+#thanhtoan{
+    margin: 10px 0px 40px 0px;
+    display: block;
+    width: 86%;
+    background-color: #ff7c00;
+    color: white;
+    height: 60px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dash{
+    border-bottom-style:dashed;
+    border-color: #bfbdb999;
+}
+
+  

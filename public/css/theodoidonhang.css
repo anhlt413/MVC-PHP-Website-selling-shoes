@@ -1,0 +1,19 @@
+#container{
+    margin: 2% 20%;
+}
+table.a{
+    width: 100%;
+    font-family: arial, sans-serif;
+}
+.a tr td,th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    width: 33.33%;
+    text-align: center;
+}
+a{
+    color: black;
+}
+a:hover{
+    color: #f15e2c;
+}

@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.top {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0px auto;
+}
+div.bot {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 1200px;
+    margin: 0px auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.box1{
+    margin: 0px 10px;
+    float: left;
+    width: 23.3%;
+    height: 420px;
+    text-align: center;
+}
+#quangcao{
+    padding: 25px;
+}
+#quangcao #first{
+    height: 460px;
+    width: 550px;
+    background-color: white;
+    float: left;
+    text-align: left;
+    padding: 25px;
+}
+#quangcao #second{
+    height: 460px;
+    width: 550px;
+    background-color:white;
+    float: right;
+    text-align: left;
+    padding: 25px;
+}
+#danhmuc{
+    text-align: center;
+}
+h4{
+    color: black;
+    font-size: 19px;
+
+}
+a h4:hover{
+    color: #f15e2c;
+}

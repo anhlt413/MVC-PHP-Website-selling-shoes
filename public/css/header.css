@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+li{
+    float: right;
+}
+
+li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+    padding: 6px 12px;
+    text-align: center;
+}
+li a:hover {
+    color: #f15e2c;
+}
+div.top {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0px auto;
+}
+#chucnang{
+    background-color: white;
+    color: black;
+    height: 120px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.box2{
+    float: left;
+    height: 120px;
+    text-align: center;
+}
+.box3{
+    float: left;
+    height: 120px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    float: left;
+    height: 120px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#tk{
+    padding: 5px;
+}
+a.test:hover {
+    color: #f15e2c;
+}
+a{
+    text-decoration: none;
+}
+a h1:hover{
+    color: #f15e2c;
+}
+h1{
+    color: black;
+    font-size: 25px;
+}
+a.test{
+    text-decoration: none;
+    display: block;
+    color:black;
+    font-size: 30px;
+}
